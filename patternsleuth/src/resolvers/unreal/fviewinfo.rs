@@ -1,7 +1,6 @@
 use std::fmt::Debug;
 
 use futures::future::join_all;
-use simple_log::info;
 use std::fs;
 
 use crate::{_bail_out, resolvers::{ensure_one, impl_resolver_singleton, unreal::util}};
